@@ -1,0 +1,225 @@
+/* ==UserStyle==
+@name         Anime365 Dark
+@description  Dark mode for anime365.ru
+@namespace    https://github.com/MaxProPlus
+@author       MaxProPlus
+@version      1.0.0
+@preprocessor default
+
+@var text   background-img-url            "Background image url"          "url('https://phonoteka.org/uploads/posts/2022-02/1643964158_50-phonoteka-org-p-temnii-fon-dlya-rabochego-stola-anime-57.jpg')"
+
+@var color  primary-color                 "primary color"                 #191919
+@var color  primary-hover-color           "Primary hover color"           #0c0c0c
+@var color  primary-border-color          "Primary border color"          #2e2e2e
+
+@var color  primary-button-color          "Primary button color"          #44013f
+@var color  primary-button-hover-color    "Primary button hover color"    #3c0037
+@var color  secondary-button-color        "Secondary button color"        #5843cd
+@var color  secondary-button-hover-color  "Secondary button hover color"  #301ba5
+@var color  thirty-button-color           "Thirty button color"           #cf9acb
+
+@var color  primary-text                  "Primary text"                  rgba(255, 255, 255, .87)
+==/UserStyle== */
+@-moz-document domain("smotret-anime.com"), domain("anime365.ru") {
+  html {
+    color: var(--primary-text) !important;
+    background-color: var(--primary-hover-color);
+  }
+  .full-background {
+    background: var(--background-img-url) no-repeat;
+    background-size: cover;
+  }
+  .white {
+    background-color: var(--primary-color) !important
+  }
+
+  .green.darken-4 {
+    background-color: var(--primary-button-color) !important;
+  }
+  .btn.green.darken-4:hover {
+    background-color: var(--primary-button-hover-color) !important;
+  }
+  .orange.accent-4 {
+    background-color: var(--secondary-button-color) !important
+  }
+  .m-select-translation-type .btn.active:hover {
+    background-color: var(--secondary-button-hover-color) !important
+  }
+  .btn.orange.accent-4:hover {
+    background-color: var(--secondary-button-hover-color) !important
+  }
+  .m-select-translation-type .btn.active {
+    background-color: var(--secondary-button-color) !important
+  }
+
+  input[type=date]:focus:not([readonly]) + label:not(.md-input),
+  input[type=datetime-local]:focus:not([readonly]) + label:not(.md-input),
+  input[type=email]:focus:not([readonly]) + label:not(.md-input),
+  input[type=number]:focus:not([readonly]) + label:not(.md-input),
+  input[type=password]:focus:not([readonly]) + label:not(.md-input),
+  input[type=search]:focus:not([readonly]) + label:not(.md-input),
+  input[type=tel]:focus:not([readonly]) + label:not(.md-input),
+  input[type=text]:focus:not([readonly]) + label:not(.md-input),
+  input[type=time]:focus:not([readonly]) + label:not(.md-input),
+  input[type=url]:focus:not([readonly]) + label:not(.md-input),
+  textarea.materialize-textarea:focus:not([readonly]) + label:not(.md-input) {
+    color: inherit;
+  }
+  .input-field input:not([type]):focus:not([readonly]),
+  .input-field input[type=date]:focus:not([readonly]),
+  .input-field input[type=datetime-local]:focus:not([readonly]),
+  .input-field input[type=datetime]:focus:not([readonly]),
+  .input-field input[type=email]:focus:not([readonly]),
+  .input-field input[type=number]:focus:not([readonly]),
+  .input-field input[type=password]:focus:not([readonly]),
+  .input-field input[type=search]:focus:not([readonly]),
+  .input-field input[type=tel]:focus:not([readonly]),
+  .input-field input[type=text]:focus:not([readonly]),
+  .input-field input[type=time]:focus:not([readonly]),
+  .input-field input[type=url]:focus:not([readonly]),
+  .input-field textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid var(--primary-button-color);
+    box-shadow: 0 1px 0 0 var(--primary-button-color)
+  }
+
+  .progress {
+    background-color: var(--secondary-button-color);
+  }
+  .progress .determinate,
+  .progress .indeterminate {
+    background-color: var(--secondary-button-hover-color)
+  }
+
+  nav {
+    color: var(--primary-text);
+  }
+  nav .dropdown-content li.active,
+  nav .dropdown-content li:hover,
+  nav ul li.active,
+  nav ul li:hover {
+    background-color: var(--primary-hover-color);
+  }
+  nav .brand-logo {
+    filter: invert(90%);
+  }
+  .button-collapse,
+  nav ul.right a {
+    color: var(--primary-text) !important;
+  }
+  .dropdown-content {
+    background-color: var(--primary-color);
+  }
+
+  .card,
+  .card-panel {
+    background-color: var(--primary-color);
+  }
+
+  .m-new-episodes {
+    background: var(--primary-color);
+  }
+  .collection.with-header .collection-header {
+    background-color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-border-color);
+  }
+  .collection .collection-item {
+    background-color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-border-color);
+  }
+  .collection .collection-item.m-comment {
+    border-bottom: 1px solid var(--primary-border-color);
+  }
+  .m-comment-author-name {
+    color: inherit;
+  }
+
+  .m-custom-tabs {
+    background-color: var(--primary-color);
+  }
+  .m-custom-tabs__tab_active {
+    border-bottom: 2px solid var(--thirty-button-color);
+  }
+  .m-custom-tabs__tab a {
+    color: var(--thirty-button-color);
+  }
+  table.highlight > tbody > tr:hover {
+    background-color: var(--primary-hover-color);
+  }
+
+  table.striped > tbody > tr:nth-child(odd) {
+    background-color: var(--primary-hover-color);
+  }
+
+  .qq-uploader {
+    background-color: var(--primary-hover-color);
+  }
+
+  html.md-default-theme,
+  html,
+  body.md-default-theme,
+  body {
+    color: inherit;
+  }
+  .md-autocomplete-suggestions-container.md-default-theme,
+  .md-autocomplete-suggestions-container {
+    background: var(--primary-color);
+  }
+  .md-autocomplete-suggestions-container.md-default-theme li:hover,
+  .md-autocomplete-suggestions-container li:hover,
+  .md-autocomplete-suggestions-container.md-default-theme li.selected,
+  .md-autocomplete-suggestions-container li.selected {
+    background: var(--primary-hover-color);
+  }
+  .md-autocomplete-suggestions-container.md-default-theme li,
+  .md-autocomplete-suggestions-container li {
+    color: inherit;
+  }
+
+  .ccs-input {
+    background: inherit;
+  }
+  .dropdown-content li.active,
+  .dropdown-content li.selected,
+  .dropdown-content li:hover {
+    background-color: var(--primary-hover-color);
+  }
+
+  .modal {
+    background: var(--primary-color);
+  }
+  .embed-container {
+    color: inherit;
+  }
+
+  .vjs-default-skin .vjs-big-play-button {
+    border: .15em solid var(--secondary-button-color);
+    background: var(--secondary-button-color);
+  }
+  .vjs-default-skin .vjs-big-play-button:focus,
+  .vjs-default-skin:hover .vjs-big-play-button {
+    background: var(--secondary-button-hover-color);
+    border-color: var(--secondary-button-hover-color)
+  }
+
+  .btn-floating,
+  .btn-floating:hover,
+  .side-nav a.btn-floating:hover {
+    background-color: var(--secondary-button-color);
+  }
+
+  .m-select-translation-variant .current {
+    color: var(--secondary-button-color);
+  }
+
+  .m-moment__play-button.material-icons {
+    color: var(--secondary-button-color);
+  }
+
+  .m-moments-list-card.slick-slider .slick-dots li.slick-active button:before {
+    color: var(--secondary-button-color);
+  }
+
+  .orange {
+    background-color: var(--primary-color) !important;
+  }
+}
