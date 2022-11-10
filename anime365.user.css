@@ -30,7 +30,7 @@
     background-size: cover;
   }
   .white {
-    background-color: var(--primary-color) !important
+    background-color: var(--primary-color) !important;
   }
 
   .green.darken-4 {
@@ -40,16 +40,16 @@
     background-color: var(--primary-button-hover-color) !important;
   }
   .orange.accent-4 {
-    background-color: var(--secondary-button-color) !important
+    background-color: var(--secondary-button-color) !important;
   }
   .m-select-translation-type .btn.active:hover {
-    background-color: var(--secondary-button-hover-color) !important
+    background-color: var(--secondary-button-hover-color) !important;
   }
   .btn.orange.accent-4:hover {
-    background-color: var(--secondary-button-hover-color) !important
+    background-color: var(--secondary-button-hover-color) !important;
   }
   .m-select-translation-type .btn.active {
-    background-color: var(--secondary-button-color) !important
+    background-color: var(--secondary-button-color) !important;
   }
 
   input[type=date]:focus:not([readonly]) + label:not(.md-input),
@@ -79,7 +79,7 @@
   .input-field input[type=url]:focus:not([readonly]),
   .input-field textarea.materialize-textarea:focus:not([readonly]) {
     border-bottom: 1px solid var(--primary-button-color);
-    box-shadow: 0 1px 0 0 var(--primary-button-color)
+    box-shadow: 0 1px 0 0 var(--primary-button-color);
   }
 
   .progress {
@@ -87,7 +87,7 @@
   }
   .progress .determinate,
   .progress .indeterminate {
-    background-color: var(--secondary-button-hover-color)
+    background-color: var(--secondary-button-hover-color);
   }
 
   nav {
@@ -131,6 +131,11 @@
   }
   .m-comment-author-name {
     color: inherit;
+  }
+
+  .m-group-pop-box,
+  .m-pop-box {
+    background: var(--primary-color);
   }
 
   .m-custom-tabs {
@@ -198,7 +203,7 @@
   .vjs-default-skin .vjs-big-play-button:focus,
   .vjs-default-skin:hover .vjs-big-play-button {
     background: var(--secondary-button-hover-color);
-    border-color: var(--secondary-button-hover-color)
+    border-color: var(--secondary-button-hover-color);
   }
 
   .btn-floating,
