@@ -138,6 +138,10 @@
     background: var(--primary-color);
   }
 
+  .m-embed-code textarea {
+    background: inherit;
+  }
+
   .m-custom-tabs {
     background-color: var(--primary-color);
   }
