@@ -199,6 +199,9 @@
   .embed-container {
     color: inherit;
   }
+  .embed-layout {
+    background: var(--primary-hover-color);
+  }
 
   .vjs-default-skin .vjs-big-play-button {
     border: .15em solid var(--secondary-button-color);
