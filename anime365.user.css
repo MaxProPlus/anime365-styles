@@ -193,6 +193,14 @@
     background-color: var(--primary-hover-color);
   }
 
+  #onesignal-slidedown-container #onesignal-slidedown-dialog, #onesignal-slidedown-container #onesignal-popover-dialog, #onesignal-popover-container #onesignal-slidedown-dialog, #onesignal-popover-container #onesignal-popover-dialog {
+    background: var(--primary-hover-color) !important;
+    color: inherit;
+  }
+  #onesignal-slidedown-container #onesignal-slidedown-dialog .slidedown-body-message, #onesignal-slidedown-container #onesignal-slidedown-dialog .popover-body-message, #onesignal-slidedown-container #onesignal-popover-dialog .slidedown-body-message, #onesignal-slidedown-container #onesignal-popover-dialog .popover-body-message, #onesignal-popover-container #onesignal-slidedown-dialog .slidedown-body-message, #onesignal-popover-container #onesignal-slidedown-dialog .popover-body-message, #onesignal-popover-container #onesignal-popover-dialog .slidedown-body-message, #onesignal-popover-container #onesignal-popover-dialog .popover-body-message {
+    color: inherit !important;
+  }
+
   .modal {
     background: var(--primary-color);
   }
