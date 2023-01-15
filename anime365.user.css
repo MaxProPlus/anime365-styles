@@ -63,7 +63,7 @@
   input[type=time]:focus:not([readonly]) + label:not(.md-input),
   input[type=url]:focus:not([readonly]) + label:not(.md-input),
   textarea.materialize-textarea:focus:not([readonly]) + label:not(.md-input) {
-    color: inherit;
+    color: var(--thirty-button-color);
   }
   .input-field input:not([type]):focus:not([readonly]),
   .input-field input[type=date]:focus:not([readonly]),
@@ -78,8 +78,8 @@
   .input-field input[type=time]:focus:not([readonly]),
   .input-field input[type=url]:focus:not([readonly]),
   .input-field textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid var(--primary-button-color);
-    box-shadow: 0 1px 0 0 var(--primary-button-color);
+    border-bottom: 1px solid var(--thirty-button-color);
+    box-shadow: 0 1px 0 0 var(--thirty-button-color);
   }
 
   .progress {
@@ -183,6 +183,22 @@
   .md-autocomplete-suggestions-container li {
     color: inherit;
   }
+  md-input-container.md-default-theme .md-input,
+  md-input-container .md-input {
+    color: var(--primary-text);
+  }
+  md-input-container.md-default-theme:not(.md-input-invalid).md-input-has-value label ,
+  md-input-container:not(.md-input-invalid).md-input-has-value label {
+    color: #9e9e9e;
+  }
+  md-input-container.md-default-theme:not(.md-input-invalid).md-input-focused label ,
+  md-input-container:not(.md-input-invalid).md-input-focused label {
+    color: var(--thirty-button-color);
+  }
+  md-input-container.md-default-theme:not(.md-input-invalid).md-input-focused .md-input,
+  md-input-container:not(.md-input-invalid).md-input-focused .md-input {
+    border-color: var(--thirty-button-color);
+  }
 
   .ccs-input {
     background: inherit;
@@ -191,6 +207,13 @@
   .dropdown-content li.selected,
   .dropdown-content li:hover {
     background-color: var(--primary-hover-color);
+  }
+  .dropdown-content li.active.selected {
+    background-color: var(--primary-hover-color);
+  }
+  .dropdown-content li > a,
+  .dropdown-content li > span {
+    color: var(--thirty-button-color);
   }
 
   #onesignal-slidedown-container #onesignal-slidedown-dialog, #onesignal-slidedown-container #onesignal-popover-dialog, #onesignal-popover-container #onesignal-slidedown-dialog, #onesignal-popover-container #onesignal-popover-dialog {
@@ -219,6 +242,10 @@
   .vjs-default-skin:hover .vjs-big-play-button {
     background: var(--secondary-button-hover-color);
     border-color: var(--secondary-button-hover-color);
+  }
+
+  .vjs-default-skin .vjs-control-bar {
+    background-color: var(--primary-color);
   }
 
   .btn-floating,
