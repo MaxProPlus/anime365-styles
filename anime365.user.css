@@ -3,7 +3,7 @@
 @description  Dark mode for anime365.ru
 @namespace    https://github.com/MaxProPlus
 @author       MaxProPlus
-@version      1.0.0
+@version      1.0.6
 @preprocessor default
 
 @var text   background-img-url            "Background image url"          "url('https://phonoteka.org/uploads/posts/2022-02/1643964158_50-phonoteka-org-p-temnii-fon-dlya-rabochego-stola-anime-57.jpg')"
@@ -215,6 +215,9 @@
   .dropdown-content li > span {
     color: var(--thirty-button-color);
   }
+  .select-wrapper span.caret {
+    color: unset;
+  }
 
   #onesignal-slidedown-container #onesignal-slidedown-dialog, #onesignal-slidedown-container #onesignal-popover-dialog, #onesignal-popover-container #onesignal-slidedown-dialog, #onesignal-popover-container #onesignal-popover-dialog {
     background: var(--primary-hover-color) !important;
@@ -233,6 +236,9 @@
   .embed-layout {
     background: var(--primary-hover-color);
   }
+  .embed-container .addUploadRequest {
+    color: unset;
+   }
 
   .vjs-default-skin .vjs-big-play-button {
     border: .15em solid var(--secondary-button-color);

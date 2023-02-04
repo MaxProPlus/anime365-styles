@@ -1,8 +1,12 @@
 # Anime365 Dark
 
-### How to install
+### Как установить
 
-You'll need a browser extension that supports userstyles, the one I use (and the one the style is written and tested with) is Stylus. Download it here for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en/extensions/details/stylus/)
+Для установки стилей нужно разрешение Stylus. Вы можете скачать его по ссылкам ниже в зависимости от браузера:
+1. [Chrome Web Store](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) (or [beta](https://chrome.google.com/webstore/detail/stylus-beta/apmmpaebfobifelkijhaljbmpcgbjbdo))
+2. [Firefox add-ons](https://addons.mozilla.org/firefox/addon/styl-us/)
+3. [Opera add-ons](https://addons.opera.com/extensions/details/stylus/) (see [wiki](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus) for more recent version)
 
-Then you can add the style to Stylus by opening the raw anime365.user.css file of the style. The master branch contains the stable versions, and the development versions are in the style's respective branches.
-Most styles have many customisation settings, so you can customize the style without even looking into the code too!
+После установки разрешения stylus, откройте файл anime365.user.css и нажмите на кнопку raw.  
+В настройках стилей вы можете поменять фон(или вовсе его убрать), а также поменять цвета по вкусу.  
+После этого нажимаете слева кнопку "Install style"
