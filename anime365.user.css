@@ -3,7 +3,7 @@
 @description  Dark mode for anime365.ru
 @namespace    https://github.com/MaxProPlus
 @author       MaxProPlus
-@version      1.0.6
+@version      1.0.7
 @preprocessor default
 
 @var text   background-img-url            "Background image url"          "url('https://phonoteka.org/uploads/posts/2022-02/1643964158_50-phonoteka-org-p-temnii-fon-dlya-rabochego-stola-anime-57.jpg')"
@@ -19,6 +19,7 @@
 @var color  thirty-button-color           "Thirty button color"           #cf9acb
 
 @var color  primary-text                  "Primary text"                  rgba(255, 255, 255, .87)
+@var color  primary-text-link-hover       "Primary text link"             #039be5
 ==/UserStyle== */
 @-moz-document domain("smotret-anime.com"), domain("anime365.ru") {
   html {
@@ -132,6 +133,9 @@
   .m-comment-author-name {
     color: inherit;
   }
+  .collection .collection-item.m-comment.m-comment-deleted {
+    background-color: #442525;
+  }
 
   .m-group-pop-box,
   .m-pop-box {
@@ -238,7 +242,7 @@
   }
   .embed-container .addUploadRequest {
     color: unset;
-   }
+  }
 
   .vjs-default-skin .vjs-big-play-button {
     border: .15em solid var(--secondary-button-color);
@@ -251,7 +255,8 @@
   }
 
   .vjs-default-skin .vjs-control-bar {
-    background-color: var(--primary-color);
+    /*background-color: var(--primary-color);*/
+    background-color: rgba(30, 30, 30, 0.7);
   }
 
   .btn-floating,
@@ -274,5 +279,30 @@
 
   .orange {
     background-color: var(--primary-color) !important;
+  }
+  .qq-upload-file {
+    width:unset;
+  }
+
+  .grid-view tr.selected {
+    background-color: #4e514f !important;
+  }
+
+  /* mobile */
+  .side-nav {
+    background-color: var(--primary-color);
+  }
+  .side-nav a {
+    color: var(--primary-text);
+  }
+  .side-nav .subheader {
+    color: var(--primary-text);
+  }
+  a:hover:not(.btn):not(.btn-large) {
+    color: var(--primary-text-link-hover);
+    filter: brightness(75%);
+  }
+  .divider {
+    background-color: var(--primary-border-color);
   }
 }
