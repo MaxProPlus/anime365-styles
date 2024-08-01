@@ -3,10 +3,10 @@
 @description  Dark mode for anime365.ru
 @namespace    https://github.com/MaxProPlus
 @author       MaxProPlus
-@version      1.0.8
+@version      1.0.10
 @preprocessor default
 
-@var text   background-img-url            "Background image url"          "url('https://phonoteka.org/uploads/posts/2022-02/1643964158_50-phonoteka-org-p-temnii-fon-dlya-rabochego-stola-anime-57.jpg')"
+@var text   background-img-url            "Background image url"          "url('https://sun9-20.userapi.com/impg/NUqRniZCkcQ1P8IOl8MsU99-VrykvGpJATAm-g/R5wwaxJbVJk.jpg?size=1920x1080&quality=95&sign=d35367cde6d94cc3be9042480ede9bd4')"
 
 @var color  primary-color                 "primary color"                 #191919
 @var color  primary-hover-color           "Primary hover color"           #0c0c0c
@@ -21,7 +21,7 @@
 @var color  primary-text                  "Primary text"                  rgba(255, 255, 255, .87)
 @var color  primary-text-link-hover       "Primary text link"             #025d89
 ==/UserStyle== */
-@-moz-document domain("smotret-anime.com"), domain("anime365.ru") {
+@-moz-document domain("smotret-anime.com"), domain("smotret-anime.net"), domain("anime365.ru") {
   html {
     color: var(--primary-text) !important;
     background-color: var(--primary-hover-color);
