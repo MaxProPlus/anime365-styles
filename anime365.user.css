@@ -26,7 +26,9 @@ domain("smotret-anime.online"),
 domain("smotret-anime.com"),
 domain("smotret-anime.net"),
 domain("anime365.ru"),
-domain("hentai365.ru") {
+domain("anime-365.ru"),
+domain("hentai365.ru"),
+domain("h365-art.org") {
   html {
     color: var(--primary-text) !important;
     background-color: var(--primary-hover-color);
