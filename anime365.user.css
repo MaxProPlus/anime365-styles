@@ -3,7 +3,7 @@
 @description  Dark mode for anime365.ru
 @namespace    https://github.com/MaxProPlus
 @author       MaxProPlus
-@version      1.0.10
+@version      1.0.11
 @preprocessor default
 
 @var text   background-img-url            "Background image url"          "url('https://sun9-20.userapi.com/impg/NUqRniZCkcQ1P8IOl8MsU99-VrykvGpJATAm-g/R5wwaxJbVJk.jpg?size=1920x1080&quality=95&sign=d35367cde6d94cc3be9042480ede9bd4')"
@@ -25,6 +25,7 @@
 domain("smotret-anime.online"),
 domain("smotret-anime.com"),
 domain("smotret-anime.net"),
+domain("smotretanime.ru"),
 domain("anime365.ru"),
 domain("anime-365.ru"),
 domain("hentai365.ru"),
